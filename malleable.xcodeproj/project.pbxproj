@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65C81DCD1D3D838D002BE760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C81DCC1D3D838D002BE760 /* AppDelegate.swift */; };
-		65C81DCF1D3D838D002BE760 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C81DCE1D3D838D002BE760 /* ViewController.swift */; };
-		65C81DD21D3D838D002BE760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C81DD01D3D838D002BE760 /* Main.storyboard */; };
-		65C81DD41D3D838D002BE760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C81DD31D3D838D002BE760 /* Assets.xcassets */; };
-		65C81DD71D3D838D002BE760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C81DD51D3D838D002BE760 /* LaunchScreen.storyboard */; };
+		65C81DE31D3DE88D002BE760 /* Malleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C81DE21D3DE88D002BE760 /* Malleable.swift */; };
+		65C81DE51D3DF6E0002BE760 /* MalleableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C81DE41D3DF6E0002BE760 /* MalleableView.swift */; };
+		65C81DE71D3DF7D0002BE760 /* MalleableGestureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C81DE61D3DF7D0002BE760 /* MalleableGestureDelegate.swift */; };
+		65C81DE91D3DF88A002BE760 /* TextEntryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C81DE81D3DF88A002BE760 /* TextEntryState.swift */; };
+		65C81DEB1D3DF8BA002BE760 /* TextEntryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C81DEA1D3DF8BA002BE760 /* TextEntryDelegate.swift */; };
+		65C81DEF1D3DFA7D002BE760 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65C81DEE1D3DFA7D002BE760 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		65C81DC91D3D838D002BE760 /* malleable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = malleable.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		65C81DCC1D3D838D002BE760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65C81DCE1D3D838D002BE760 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		65C81DD11D3D838D002BE760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		65C81DD31D3D838D002BE760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		65C81DD61D3D838D002BE760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		65C81DD81D3D838D002BE760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C81DE21D3DE88D002BE760 /* Malleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Malleable.swift; path = ../Malleable.swift; sourceTree = "<group>"; };
+		65C81DE41D3DF6E0002BE760 /* MalleableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MalleableView.swift; sourceTree = "<group>"; };
+		65C81DE61D3DF7D0002BE760 /* MalleableGestureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MalleableGestureDelegate.swift; sourceTree = "<group>"; };
+		65C81DE81D3DF88A002BE760 /* TextEntryState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEntryState.swift; sourceTree = "<group>"; };
+		65C81DEA1D3DF8BA002BE760 /* TextEntryDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEntryDelegate.swift; sourceTree = "<group>"; };
+		65C81DEE1D3DFA7D002BE760 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +55,30 @@
 		65C81DCB1D3D838D002BE760 /* malleable */ = {
 			isa = PBXGroup;
 			children = (
-				65C81DCC1D3D838D002BE760 /* AppDelegate.swift */,
-				65C81DCE1D3D838D002BE760 /* ViewController.swift */,
-				65C81DD01D3D838D002BE760 /* Main.storyboard */,
-				65C81DD31D3D838D002BE760 /* Assets.xcassets */,
-				65C81DD51D3D838D002BE760 /* LaunchScreen.storyboard */,
-				65C81DD81D3D838D002BE760 /* Info.plist */,
+				65C81DEC1D3DFA42002BE760 /* Protocols */,
+				65C81DED1D3DFA4A002BE760 /* Enums */,
+				65C81DE41D3DF6E0002BE760 /* MalleableView.swift */,
+				65C81DEE1D3DFA7D002BE760 /* Info.plist */,
+				65C81DE61D3DF7D0002BE760 /* MalleableGestureDelegate.swift */,
 			);
 			path = malleable;
+			sourceTree = "<group>";
+		};
+		65C81DEC1D3DFA42002BE760 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				65C81DE21D3DE88D002BE760 /* Malleable.swift */,
+				65C81DEA1D3DF8BA002BE760 /* TextEntryDelegate.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		65C81DED1D3DFA4A002BE760 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				65C81DE81D3DF88A002BE760 /* TextEntryState.swift */,
+			);
+			name = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65C81DD71D3D838D002BE760 /* LaunchScreen.storyboard in Resources */,
-				65C81DD41D3D838D002BE760 /* Assets.xcassets in Resources */,
-				65C81DD21D3D838D002BE760 /* Main.storyboard in Resources */,
+				65C81DEF1D3DFA7D002BE760 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,31 +153,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65C81DCF1D3D838D002BE760 /* ViewController.swift in Sources */,
-				65C81DCD1D3D838D002BE760 /* AppDelegate.swift in Sources */,
+				65C81DE51D3DF6E0002BE760 /* MalleableView.swift in Sources */,
+				65C81DE31D3DE88D002BE760 /* Malleable.swift in Sources */,
+				65C81DE71D3DF7D0002BE760 /* MalleableGestureDelegate.swift in Sources */,
+				65C81DEB1D3DF8BA002BE760 /* TextEntryDelegate.swift in Sources */,
+				65C81DE91D3DF88A002BE760 /* TextEntryState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		65C81DD01D3D838D002BE760 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65C81DD11D3D838D002BE760 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		65C81DD51D3D838D002BE760 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65C81DD61D3D838D002BE760 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		65C81DD91D3D838D002BE760 /* Debug */ = {
